@@ -16,8 +16,10 @@ body {
   position: relative;
   margin: 1rem auto;
   text-align: center;
-  margin: 20px 500px;
+  margin: 20px 314px;
   border-radius: 5px;
+  height: 402px;
+  width: 785px;
 }
 
 .movie-director {
@@ -59,13 +61,27 @@ body {
   width: 75%;
   margin: 1rem auto;
 }
+
+.save-wrapper-card {
+  width: 100%;
+  margin: 1rem auto;
+}
+
 .save-button {
   position: absolute;
   top: 25px;
   right: 25px;
   border: 1px solid grey;
-  padding: 5px 10px;
   background-color: lightseagreen;
+  margin-top: 439px;
+  margin-right: 609px;
+  border-radius: 5px;
+  height: 38px;
+  width: 138px;
+  padding-top: 21px;
+  padding-left: 28px;
+  font-size: 20px;
+  font-family: 'Barriecito', cursive;
 }
 .save-button:hover {
   background-color: green;
@@ -85,6 +101,10 @@ body {
   text-shadow: 2px 1px black;
   font-family: 'Barriecito', cursive;
 }
+
+/* .title-Link:hover {
+  font-size: 30px
+} */
 
 .movie-star {
   font-family: 'Barriecito', cursive;
