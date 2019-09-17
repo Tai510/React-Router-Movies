@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #f2f2f2;
+  background-image: url('https://wallpapercave.com/wp/wp2670436.jpg')
 }
 
 .movie-card {
@@ -14,11 +15,15 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-align: center;
+  margin: 20px 500px;
+  border-radius: 5px;
 }
 
 .movie-director {
   padding: 4px 0;
-  font-size: 0.8rem;
+  font-size: 20px;
+  font-family: 'Barriecito', cursive;
 }
 
 .saved-list {
@@ -38,6 +43,7 @@ body {
 
 .saved-list h3 {
   margin-right: 10px;
+  font-family: 'Barriecito', cursive;
 }
 
 .saved-movie {
@@ -70,4 +76,20 @@ body {
   padding: 5px 10px;
   background-color: lightskyblue;
   cursor: pointer;
+}
+
+.title-Link {
+  font-size: 25px;
+  text-decoration: none;
+  color: #915FBC;
+  text-shadow: 2px 1px black;
+  font-family: 'Barriecito', cursive;
+}
+
+.movie-star {
+  font-family: 'Barriecito', cursive;
+}
+
+h3 {
+  font-family: 'Barriecito', cursive;
 }
